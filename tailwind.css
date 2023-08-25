@@ -1,0 +1,29 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Light text color */
+    background-image: url('astronaut-bg.jpg'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Styling for header */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background color */
+    /* ... Other header styles ... */
+}
+
+/* Styling for sections */
+section {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background color */
+    padding: 2rem;
+    border-bottom: 1px solid #444;
+}
+
+/* ... Other styles ... */
